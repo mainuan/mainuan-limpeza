@@ -1,5 +1,7 @@
 <p align="center"><img src="docs/icon.png" width="120" alt="MAINUAN LIMPEZA"></p>
 
+<div align="center">
+  
 # MAINUAN LIMPEZA
 
 ![Versão](https://img.shields.io/badge/versão-1.0.1-0fb5c4)
@@ -9,6 +11,8 @@
 
 Limpeza completa do sistema para **Ubuntu 26.04 e mais recentes** (e derivados de Debian), com o visual da família MAINUAN.
 Analisa quanto espaço pode libertar e limpa, com confirmação, cada área do sistema.
+
+</div>
 
 ![Resumo da MAINUAN LIMPEZA](docs/screenshot.png)
 
