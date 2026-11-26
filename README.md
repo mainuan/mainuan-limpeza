@@ -2,6 +2,11 @@
 
 # MAINUAN LIMPEZA
 
+![Versão](https://img.shields.io/badge/versão-1.0.1-0fb5c4)
+![Licença](https://img.shields.io/badge/licença-GPL--3.0--or--later-blue)
+![Plataforma](https://img.shields.io/badge/plataforma-Linux%20%7C%20KDE%20Plasma-lightgrey)
+![Interface](https://img.shields.io/badge/interface-Qt6%20%2F%20QML-41cd52)
+
 Limpeza completa do sistema para **Ubuntu 26.04 e mais recentes** (e derivados de Debian), com o visual da família MAINUAN.
 Analisa quanto espaço pode libertar e limpa, com confirmação, cada área do sistema.
 
@@ -82,7 +87,3 @@ Para reportar erros ou pedir funcionalidades, abre um [Issue](https://github.com
 
 Este programa é software livre: pode redistribuí-lo e/ou modificá-lo nos termos da Licença Pública Geral GNU, versão 3 ou posterior. Consulte o ficheiro [LICENSE](LICENSE).
 
-
-## Licença
-
-[GPL-3.0-or-later](LICENSE) — ver também o [CHANGELOG](CHANGELOG.md).
