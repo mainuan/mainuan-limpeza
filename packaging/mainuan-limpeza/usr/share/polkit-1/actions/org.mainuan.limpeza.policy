@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN"
+ "http://www.freedesktop.org/standards/PolicyKit/1/policyconfig.dtd">
+<policyconfig>
+  <vendor>Mainuan</vendor>
+  <vendor_url>https://mainuan.local</vendor_url>
+  <action id="org.mainuan.limpeza.helper">
+    <description>Limpar e remover ficheiros e pacotes do sistema</description>
+    <description xml:lang="en">Clean and remove system files and packages</description>
+    <description xml:lang="pt_BR">Limpar e remover arquivos e pacotes do sistema</description>
+    <description xml:lang="es">Limpiar y eliminar archivos y paquetes del sistema</description>
+    <description xml:lang="fr">Nettoyer et supprimer des fichiers et des paquets du système</description>
+    <message>É necessária autenticação para o MAINUAN LIMPEZA analisar e limpar o sistema</message>
+    <message xml:lang="en">Authentication is required for MAINUAN LIMPEZA to scan and clean the system</message>
+    <message xml:lang="pt_BR">É necessária autenticação para o MAINUAN LIMPEZA analisar e limpar o sistema</message>
+    <message xml:lang="es">Se requiere autenticación para que MAINUAN LIMPEZA analice y limpie el sistema</message>
+    <message xml:lang="fr">Une authentification est requise pour que MAINUAN LIMPEZA analyse et nettoie le système</message>
+    <icon_name>mainuan-limpeza</icon_name>
+    <defaults>
+      <allow_any>auth_admin</allow_any>
+      <allow_inactive>auth_admin</allow_inactive>
+      <allow_active>auth_admin_keep</allow_active>
+    </defaults>
+    <annotate key="org.freedesktop.policykit.exec.path">/usr/lib/mainuan-limpeza/helper.py</annotate>
+    <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
+  </action>
+</policyconfig>

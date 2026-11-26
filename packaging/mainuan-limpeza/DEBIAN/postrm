@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+rm -rf /usr/lib/mainuan-limpeza/__pycache__ /usr/lib/mainuan-limpeza/scanner/__pycache__ 2>/dev/null || true
+rmdir /usr/lib/mainuan-limpeza/scanner /usr/lib/mainuan-limpeza 2>/dev/null || true
+exit 0

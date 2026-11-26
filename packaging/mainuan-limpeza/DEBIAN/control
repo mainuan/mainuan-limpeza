@@ -1,0 +1,14 @@
+Package: mainuan-limpeza
+Version: 1.0.1
+Section: utils
+Priority: optional
+Architecture: all
+Depends: python3 (>= 3.10), python3-pyside6.qtcore | python3-pyqt5, python3-pyside6.qtgui | python3-pyqt5, python3-pyside6.qtwidgets | python3-pyqt5, pkexec | policykit-1, apt, dpkg, util-linux, systemd
+Recommends: flatpak
+Suggests: dkms
+Maintainer: David Caixinha <noreply@mainuan.local>
+Description: MAINUAN LIMPEZA - limpeza completa do sistema
+ Analisa e limpa o sistema: aplicações instaladas, Flatpak, cache do
+ utilizador, lixo, drivers e firmwares desnecessários, kernels antigos,
+ idiomas e documentação, cache e pacotes órfãos do APT, ficheiros
+ temporários e registos. Inclui um resumo com o espaço recuperável.

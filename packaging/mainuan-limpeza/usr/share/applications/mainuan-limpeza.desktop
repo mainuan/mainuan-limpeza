@@ -1,0 +1,19 @@
+[Desktop Entry]
+Type=Application
+Name=MAINUAN LIMPEZA
+GenericName=Limpeza do sistema
+GenericName[en]=System cleaner
+GenericName[pt_BR]=Limpeza do sistema
+GenericName[es]=Limpiador del sistema
+GenericName[fr]=Nettoyeur de système
+Comment=Limpeza do sistema: cache, lixo, Flatpak, kernels, drivers, idiomas, APT, temporários e registos
+Comment[en]=System cleaner: cache, trash, Flatpak, kernels, drivers, languages, APT, temporary files and logs
+Comment[pt_BR]=Limpeza do sistema: cache, lixeira, Flatpak, kernels, drivers, idiomas, APT, temporários e logs
+Comment[es]=Limpieza del sistema: caché, papelera, Flatpak, kernels, controladores, idiomas, APT, temporales y registros
+Comment[fr]=Nettoyage du système : cache, corbeille, Flatpak, noyaux, pilotes, langues, APT, temporaires et journaux
+Exec=mainuan-limpeza
+Icon=mainuan-limpeza
+Terminal=false
+Categories=System;Settings;
+Keywords=limpeza;limpar;cache;lixo;kernel;flatpak;apt;temporarios;clean;cleaner;
+StartupWMClass=mainuan-limpeza
